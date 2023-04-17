@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+/*############## HEAD CONTAINER ###########*/
+
+.headercontainer {
+    margin: 3%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.headerbutton {
+    width: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+    border-style: solid;
+   
+}
+
+
+/*############## FIRST SECTION ##########*/
+
+.containerone {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerone h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.containerone p {
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 400;
+}
+
+.containerone button {
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:  hsl(322, 100%, 66%);
+    color: white;
+    border-color:  hsl(322, 100%, 66%);
+    border-style: solid;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+.mockupsdesktop {
+    width: 100%;
+}
+
+/*############# CONTAINER TWO #########*/
+
+.containertwo {
+    width: 70%;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containertwo img {
+    width: 20%;
+}
+
+.containertwo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.containertwo p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/*############# SECTION ONE ###########*/
+
+.flexone {
+    margin: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexone img {
+    width: 70%;
+}
+
+.flexone h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.flexone p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+/*############# SECTION TWO ###########*/
+.flextwo {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flextwo img {
+    width: 70%;
+}
+
+.flextwo h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.flextwo p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+/*############# SECTION THREE ###########*/
+
+.flexthree {
+    margin: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexthree img {
+    width: 70%;
+}
+
+.flexthree h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.flexthree p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.bottombackgroundtwo img {
+    width: 100%;
+}
+
+
+/*############# CONTAINER THREE #########*/
+
+
+.containerthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerthree h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+
+
+
+.containerthree button {
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 30%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:  hsl(322, 100%, 66%);
+    color: white;
+    border-color:  hsl(322, 100%, 66%);
+    border-style: solid;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  
+}
+
+.backgroundimage img {
+    width: 100%;
+    position: relative;
+    bottom: -4px;
+}
+
+/*############# SECTION FOUR ###########*/
+
+
+
+.flexfour {
+    display: flex;
+    background-color:hsl(192, 100%, 9%);
+    padding: 10%;
+    justify-content: left;
+}
+
+.flexfour p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.logo p {
+    width: 50%;
+}
+
+.newsletter .boldp {
+    font-weight: 700;
+}
+
+.newsletter p {
+    width: 50%;
+}
+
+
+
+
+.contactus {
+    padding: 2px;
+}
+
+.contactus img {
+    padding-right: 15px;
+}
+
+.bottombutton {
+    padding: 5%;
+
+}
+
+.bottombutton input {
+    position: relative;
+    left: -5%;
+    width: 50%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.bottombutton button {
+
+    width: 25%;
+    padding: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color:  hsl(322, 100%, 66%);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.socials {
+    position: relative;
+    left:1%;
+    width: 30%;
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    filter: invert(100%) sepia(7%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    transform: scale(0.6);
+
+}
+
+.bottombutton button:hover {
+    background-color:  hsl(321, 100%, 78%);
+    border-color:  hsl(321, 100%, 78%);
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.containerone button:hover {
+    background-color:  hsl(321, 100%, 78%);
+    border-color:  hsl(321, 100%, 78%);
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.containerthree button:hover  {
+    background-color:  hsl(321, 100%, 78%);
+    border-color:  hsl(321, 100%, 78%);
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.headerbutton:hover {
+    border-color:  hsl(321, 100%, 78%);
+    border-style: solid;
+    color:  hsl(321, 100%, 78%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.newsletter .alert {
+    text-align: left;
+    color: hsl(0, 100%, 63%);
+    display: none;
+    
+}
+
+
+.mobile {
+    display: none;
+}
+
+
+
+
+/*############# FOR MOBILE ############*/
+
+@media (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        width: 100%;
+    }
+    
+    body {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    /*############## HEAD CONTAINER ###########*/
+
+.headercontainer {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.headlogo {
+    width: 35%;
+}
+
+.headerbutton {
+    width: 30%;
+    padding: 10px;
+   
+}
+
+/*############## FIRST SECTION ##########*/
+
+.containerone {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerone h1 {
+    text-align: center;
+}
+
+.containerone p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.containerone button {
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+
+}
+
+.mockupsdesktop {
+    position: relative;
+    left: 5%;
+    width: 90%;
+ 
+}
+
+/*############# CONTAINER TWO #########*/
+
+
+.containertwo {
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.communities {
+    margin-bottom: 10%;
+}
+
+
+.containertwo img {
+    width: 25%;
+}
+
+.containertwo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.containertwo p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/*############# SECTION ONE ###########*/
+
+.flexone {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flexone img {
+    width: 70%;
+}
+
+.flexone h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.flexone p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/*############# SECTION TWO ###########*/
+.flextwo {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flextwo img {
+    width: 70%;
+}
+
+.flextwo h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.flextwo p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/*############# SECTION THREE ###########*/
+
+.flexthree {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flexthree img {
+    width: 70%;
+}
+
+.flexthree h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.flexthree p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.bottombackgroundtwo img {
+    width: 100%;
+}
+
+
+/*############# CONTAINER THREE #########*/
+
+
+.containerthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerthree h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+
+
+.containerthree button {
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 30%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.backgroundimage img {
+    width: 100%;
+    position: relative;
+    bottom: -4px;
+}
+
+/*############# SECTION FOUR ###########*/
+
+
+
+.flexfour {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:hsl(192, 100%, 9%);
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flexfour p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.logo p {
+    width: 100%;
+}
+
+.newsletter .boldp {
+    font-weight: 700;
+}
+
+.newsletter p {
+    width: 100%;
+}
+
+.alert {
+    justify-content: center;
+    padding-bottom:20%;
+    display: none;
+}
+
+
+
+
+
+.contactus {
+    padding: 2px;
+
+}
+
+.contactus img {
+    padding-right: 15px;
+}
+
+.bottombutton {
+    padding: 5%;
+
+}
+
+.bottombutton input {
+    position: relative;
+    left: -5%;
+    width: 60%;
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 20%;
+}
+
+.bottombutton button {
+
+    width: 35%;
+    padding: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color:  hsl(322, 100%, 66%);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.socials {
+    position: relative;
+    left:-2%;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    filter: invert(100%) sepia(7%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    transform: scale(0.6);
+
+}
+
+
+
+
+
+
+
+
+
+  }
